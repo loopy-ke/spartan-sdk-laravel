@@ -1,0 +1,28 @@
+{
+  "name": "loopy/spartan-sdk-laravel",
+  "description": "Laravel wrapper for spartan sdk",
+  "type": "library",
+  "require": {
+    "loopy/spartan-sdk": "^1"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Griffins Oringo",
+      "email": "griffins@loopy.co.ke"
+    }
+  ],
+  "minimum-stability": "dev",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Loopy\\Spartan\\CustomerServiceProvider"
+      ]
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Loopy\\": "src/"
+    }
+  }
+}
