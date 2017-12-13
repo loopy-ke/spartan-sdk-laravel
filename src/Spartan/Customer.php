@@ -11,7 +11,11 @@ class Customer extends Member
     public function __construct(array $attributes = [])
     {
         parent::__construct($attributes);
-        $this->setClient($api = resolve(Client::class));
+        $this->setClient(resolve(Client::class));
     }
 
+    public static function query()
+    {
+        return (new static());
+    }
 }
