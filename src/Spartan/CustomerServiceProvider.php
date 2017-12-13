@@ -17,7 +17,7 @@ class CustomerServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton(Client::class, function ($app) {
-            return new Client(config('spartan.client.id'), config('spartan.client.secret'));
+            return new Client(config('services.spartan.id'), config('services.spartan.secret'));
         });
     }
 

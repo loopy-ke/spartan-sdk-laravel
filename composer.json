@@ -3,7 +3,8 @@
   "description": "Laravel wrapper for spartan sdk",
   "type": "library",
   "require": {
-    "loopy/spartan-sdk": "^1"
+    "loopy/spartan-sdk": "^1",
+    "illuminate/support": "^5.5"
   },
   "license": "MIT",
   "authors": [
