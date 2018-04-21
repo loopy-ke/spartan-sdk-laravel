@@ -17,7 +17,7 @@ class CustomerServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton(Client::class, function ($app) {
-            return new Client(config('services.spartan.id'), config('services.spartan.secret'));
+            return new Client(config('services.spartan.id'), config('services.spartan.secret'),['base_url' => env('AGGREGATOR_URL','https://ca.spartancash.co.ke')]);
         });
     }
 
