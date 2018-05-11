@@ -359,16 +359,16 @@
         },
         {
             "name": "loopy/spartan-sdk",
-            "version": "1.0.5",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/loopy-ke/spartan-sdk.git",
-                "reference": "1eb1263e50e5630079bbda9df66c29d879c8dd43"
+                "reference": "0dbf88e63864fe6881c6d53a00c03e664141d02a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/loopy-ke/spartan-sdk/zipball/1eb1263e50e5630079bbda9df66c29d879c8dd43",
-                "reference": "1eb1263e50e5630079bbda9df66c29d879c8dd43",
+                "url": "https://api.github.com/repos/loopy-ke/spartan-sdk/zipball/0dbf88e63864fe6881c6d53a00c03e664141d02a",
+                "reference": "0dbf88e63864fe6881c6d53a00c03e664141d02a",
                 "shasum": ""
             },
             "require": {
@@ -395,7 +395,7 @@
                 }
             ],
             "description": "An easier way of accessing spartan realm eco services",
-            "time": "2018-05-11T00:23:23+00:00"
+            "time": "2018-05-11T00:30:33+00:00"
         },
         {
             "name": "nesbot/carbon",
